@@ -7,13 +7,14 @@ import { useStateValue } from "../context/StateProvider";
 
 function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
+  console.log(basket,user)
 
   return (
     <div className="header">
       <Link to="/">
         <img
           className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt ="amozon_PNG11.png"
+          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt ="Amazon_PNG11.png"
         />
       </Link>
 
