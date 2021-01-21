@@ -10,8 +10,9 @@
     "@testing-library/user-event": "^12.1.10",
     "dotenv": "^8.2.0",
     "firebase": "^8.2.0",
-    "firebase-tools": "^9.0.0",
+    "firebase-tools": "^9.0.1",
     "react": "^17.0.1",
+    "react-currency-format": "^1.0.0",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
@@ -22,6 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "init" : "firebase login && firebase init && firebase deploy --only hosting",
     "heroku-postbuild": "npm install && npm run build"
   },
   "eslintConfig": {

@@ -3,6 +3,7 @@ import './Home.css';
 import Product from '../components/Product';
 
 function Home() {
+	console.log(process.env.REACT_APP_apiKey)
 	return (
 		<div className="home">
 			<div className="home__container">

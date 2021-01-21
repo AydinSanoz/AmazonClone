@@ -1,4 +1,5 @@
 import './App.css';
+import 'dotenv'
 import Home from './pages/Home';
 import About from './pages/About';
 import Header from './pages/Header';
@@ -35,7 +36,7 @@ function App() {
 		  }
 		});
 	  }, []);
-	  
+
 	return (
 		<div className="App">
 			<Router>
